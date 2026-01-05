@@ -341,3 +341,21 @@ color: #ffffff;
 
 }
 
+@media (max-width: 768px) {
+
+  header.site-header {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 12px;
+  }
+
+  .wrapper {
+    min-height: 0 !important;
+  }
+
+}
+
+header.site-header {
+  overflow: visible;
+}
+
