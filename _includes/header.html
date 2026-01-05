@@ -1,0 +1,43 @@
+<header class="site-header">
+  <div class="wrapper header-inner">
+
+    <div class="header-profile">
+      <img src="/assets/images/ChajwaRahul.png" alt="Rahul Chajwa" class="profile-pic">
+
+      <div class="profile-text">
+        <div class="name">Rahul Chajwa</div>
+        <div class="position">Postdoc, Stanford University</div>
+        <div class="position">Ph.D. Physics, ICTS-TIFR</div>
+        <div class="position">BS-MS Physics, IISER Mohali</div>
+        <div class="email">
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </div>
+      </div>
+    </div>
+
+<nav class="site-nav">
+  <ul>
+    <li><a href="/bio">Bio</a></li>
+    <li><a href="/research">Research Themes</a></li>
+    <li><a href="/papers">Papers</a></li>
+    <li><a href="/expedition">Expeditions</a></li>
+    <li><a href="/activism">Articles</a></li>
+
+    <li>
+      <a href="https://github.com/{{ site.github_username | escape }}" target="_blank" rel="noopener">
+        <svg class="svg-icon">
+          <use xlink:href="{{ '/assets/social-icons.svg#github' | relative_url }}"></use>
+        </svg>
+        <span class="social-text">GitHub</span>
+      </a>
+    </li>
+
+    <li><a href="/talks">Talks</a></li>
+  </ul>
+</nav>
+
+
+
+  </div>
+</header>
+

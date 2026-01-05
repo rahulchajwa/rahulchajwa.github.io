@@ -1,0 +1,86 @@
+<footer class="site-footer h-card">
+  <div class="wrapper">
+
+    <!-- Column 1: Name, Positions, Email -->
+    <div class="footer-col footer-col-1">
+      {%- if site.title -%}
+      <p class="footer-name">{{ site.title }}<span class="hindi"> (राहुल छाजवा)</span></p>
+      {%- endif -%}
+
+      <p class="footer-position">
+        Ph.D. Physics, ICTS-TIFR<br>
+        Postdoc, Stanford University
+      </p>
+
+      {%- if site.email -%}
+      <p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      {%- endif -%}
+    </div>
+    
+    <!-- Column 2: Description -->
+ <!--   <div class="footer-col footer-col-3">
+     <p>{{- site.description | escape -}}</p> -->
+
+    <div class="footer-col footer-col-3 keats-quote">
+    <p class="quote-text">
+    “Beauty is truth, truth beauty,”—that is all<br>
+    Ye know on earth, and all ye need to know.
+   </p>
+   <p class="quote-attrib">
+    — John Keats, <em>Ode on a Grecian Urn</em>
+   </p>
+   </div>
+
+
+
+    <!-- Column 3: Social links -->
+    <div class="footer-col footer-col-2">
+      <ul class="social-media-list">
+        {%- if site.scholar_url -%}  
+        <li class="social-text-link">
+          <a href="{{ site.scholar_url }}" target="_blank" title="Google Scholar">Google Scholar
+        </li>
+        {%- endif -%}        
+        
+        {%- if site.github_username -%}
+        <li>
+          <a href="https://github.com/{{ site.github_username | escape }}" target="_blank" title="GitHub">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#github' | relative_url }}"></use></svg>
+            <span class="social-text">GitHub</span>
+          </a>
+        </li>
+        {%- endif -%}
+
+        {%- if site.twitter_username -%}
+        <li>
+          <a href="https://twitter.com/{{ site.twitter_username | escape }}" target="_blank" title="Twitter">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#twitter' | relative_url }}"></use></svg>
+          </a>
+        </li>
+        {%- endif -%}
+
+        {%- if site.linkedin -%}
+        <li>
+          <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" title="LinkedIn">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#linkedin' | relative_url }}"></use></svg>
+            <span class="social-text">LinkedIn</span>
+          </a>
+        </li>
+        {%- endif -%}
+
+        {%- if site.orcid -%}
+        <li>
+          <a href="{{ site.orcid }}" target="_blank" title="ORCID">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#orcid' | relative_url }}"></use></svg>
+            <span class="social-text">ORCID</span>
+          </a>
+        </li>
+        {%- endif -%}
+
+      </ul>
+    </div>
+
+
+  </div>
+</footer>
+
