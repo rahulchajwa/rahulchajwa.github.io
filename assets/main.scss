@@ -94,6 +94,10 @@ footer {
   background-color: #111;
   border-bottom: 1px solid #333;
   padding: 0.5em 0;
+
+  height: auto;
+  min-height: 0;
+  overflow: visible;
 }
 
 .site-nav ul {
@@ -101,13 +105,16 @@ footer {
   margin: 0;
   padding: 0;
   display: flex;
+  align-items: center;
   gap: 2em;
+  flex-wrap: wrap;
 }
 
 .site-nav a {
   color: #fff;
   text-decoration: none;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 .site-nav a:hover {
@@ -115,6 +122,18 @@ footer {
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+
+  .site-header {
+    padding: 0.75em 1em;
+  }
+
+  .site-nav ul {
+    justify-content: center;
+    gap: 1em;
+  }
+
+}
 
 
 
