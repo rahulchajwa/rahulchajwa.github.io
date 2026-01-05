@@ -129,7 +129,7 @@ permalink: /research/
     <h3>Ocean Carbon Cycle</h3>
     <p>
     <div class="spacer1"></div>
-      The oceans constitute the largest active reservoir of carbon on Earth, sequestering carbon from the surface to the deep ocean and sediments through a continual flux of biotic aggregates known as marine snow. This transport process, termed the biological carbon pump, spans microscopic mechanisms such as motility, self-assembly, and fluid–structure interactions, as well as gravity- and flow-driven transport across kilometer scales. We study this inherently multiscale problem — from single plankton to large-scale carbon flux — with the goal of building a bottom-up, predictive framework for ocean-based carbon sequestration. By investigating these mechanisms directly in ocean environments aboard research vessels see ([Expedition](/expedition/)), we ensure a strongly observation-driven approach.
+      The oceans constitute the largest active reservoir of carbon on Earth, sequestering carbon from the surface to the deep ocean and sediments through a continual flux of biotic aggregates known as marine snow. This transport process, termed the biological carbon pump, spans microscopic mechanisms such as motility, self-assembly, and fluid–structure interactions, as well as gravity- and flow-driven transport across kilometer scales. We study this inherently multiscale problem — from single plankton to large-scale carbon flux — with the goal of building a bottom-up, predictive framework for ocean-based carbon sequestration. By investigating these mechanisms directly in ocean environments aboard research vessels see, we ensure a strongly observation-driven approach.
     </p>
 
     <p class="related-papers">
