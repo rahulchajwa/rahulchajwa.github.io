@@ -141,7 +141,7 @@ permalink: /research/
   </div>
    
    <div class="theme-image">
-    <img src="/assets/images/research/Biological_Pump.png" alt="Marine Snow">
+    <img src="/assets/images/research/Biological_Pump.jpg" alt="Marine Snow">
   </div>
 
 </div>
