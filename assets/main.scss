@@ -371,12 +371,18 @@ color: #ffffff;
 }
 
 
-
-/* DEBUG MOBILE HEADER */
-@media (max-width: 768px) {
-  .site-header { background-color: red !important; }
-  .wrapper { background-color: orange !important; }
-  .header-inner { background-color: yellow !important; }
-  .site-nav { background-color: lime !important; }
+/* ---- Force dark theme for markdown content everywhere ---- */
+.page-content,
+.site-content,
+main {
+  background-color: #111 !important;
+  color: #fff !important;
 }
+
+.page-content a,
+.site-content a,
+main a {
+  color: #0ff !important;
+}
+
 
