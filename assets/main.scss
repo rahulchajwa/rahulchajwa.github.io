@@ -332,6 +332,45 @@ color: #ffffff;
 }
 
 
+/* --- Mobile Header Fix --- */
+@media (max-width: 768px) {
+  /* Make the wrapper full width but not taller than content */
+  .site-header .wrapper {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  /* Prevent header from expanding */
+  .site-header {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 0.5rem 0;
+    overflow: visible !important;
+  }
+
+  /* Stack header content vertically */
+  .header-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Stack nav items and center them */
+  .site-nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+    gap: 0.5rem;
+  }
+
+  .site-nav li {
+    margin: 0.25rem 0;
+  }
+}
+
+
 header.site-header {
   overflow: visible;
 }
