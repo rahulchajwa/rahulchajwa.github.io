@@ -124,16 +124,26 @@ footer {
 
 @media (max-width: 768px) {
 
-  .site-header {
-    padding: 0.75em 1em;
+  .site-header .wrapper{
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
+ }
 
+@media (max-width: 768px) {
   .site-nav ul {
-    justify-content: center;
-    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px 0;
   }
-
+  
+  .site-nav li {
+    margin: 4px 0;
+  }
 }
+
 
 
 
@@ -321,58 +331,6 @@ color: #ffffff;
   justify-content: center;
 }
 
-
-/* ==============================
-   Mobile Header Fix
-   ============================== */
-
-@media (max-width: 768px) {
-
-  .header-inner {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .header-profile {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .profile-text {
-    align-items: center;
-  }
-
-  .site-nav {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .site-nav ul {
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-  }
-
-  .site-nav li {
-    margin: 6px 0;
-  }
-
-}
-
-@media (max-width: 768px) {
-
-  header.site-header {
-    height: auto !important;
-    min-height: 0 !important;
-    padding-bottom: 12px;
-  }
-
-  .wrapper {
-    min-height: 0 !important;
-  }
-
-}
 
 header.site-header {
   overflow: visible;
