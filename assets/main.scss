@@ -372,3 +372,11 @@ color: #ffffff;
 
 
 
+/* DEBUG MOBILE HEADER */
+@media (max-width: 768px) {
+  .site-header { background-color: red !important; }
+  .wrapper { background-color: orange !important; }
+  .header-inner { background-color: yellow !important; }
+  .site-nav { background-color: lime !important; }
+}
+
