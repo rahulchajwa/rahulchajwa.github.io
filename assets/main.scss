@@ -386,31 +386,47 @@ main a {
 }
 
 
-/* --- Lock dark theme for content on all devices --- */
-body {
-  background-color: #111;
-}
+/* ============================================================
+   HARD LOCK: Dark theme on mobile Safari
+   ============================================================ */
 
-.page-content,
-.page-content .wrapper,
-main,
-main .wrapper {
+html, body {
   background-color: #111 !important;
   color: #fff !important;
 }
 
-/* Markdown text */
+/* All known Jekyll layout containers */
+.page-content,
+.site-content,
+main,
+.content,
+.container,
+.wrapper,
+article,
+section,
+div {
+  background-color: #111 !important;
+  color: #fff !important;
+}
+
+/* Explicitly fix markdown text */
 .page-content p,
 .page-content li,
 .page-content h1,
 .page-content h2,
 .page-content h3,
-.page-content h4 {
+.page-content h4,
+.page-content span {
   color: #fff !important;
 }
 
 /* Links */
-.page-content a {
-  color: #0ff !important;
+a { color: #0ff !important; }
+
+/* Kill iOS Safari white panel bug */
+@supports (-webkit-touch-callout: none) {
+  body {
+    background-color: #111 !important;
+  }
 }
 
