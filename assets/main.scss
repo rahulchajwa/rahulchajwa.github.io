@@ -386,3 +386,31 @@ main a {
 }
 
 
+/* --- Lock dark theme for content on all devices --- */
+body {
+  background-color: #111;
+}
+
+.page-content,
+.page-content .wrapper,
+main,
+main .wrapper {
+  background-color: #111 !important;
+  color: #fff !important;
+}
+
+/* Markdown text */
+.page-content p,
+.page-content li,
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4 {
+  color: #fff !important;
+}
+
+/* Links */
+.page-content a {
+  color: #0ff !important;
+}
+
